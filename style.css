@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.quote-box {
+    background: white;
+    padding: 45px 35px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+#quote {
+    font-size: 26px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    color: #333;
+}
+
+#author {
+    font-size: 18px;
+    font-style: italic;
+    color: #666;
+}
+
+button {
+    padding: 13px 22px;
+    margin: 6px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: white;
+    color: #5b4bb7;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: white;
+    margin: 45px 0 20px;
+    font-size: 28px;
+}
+
+.history-item {
+    background: white;
+    padding: 22px;
+    margin: 14px 0;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.history-item p {
+    margin-bottom: 8px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.history-item strong {
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 30px 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    #quote {
+        font-size: 21px;
+    }
+
+    .quote-box {
+        padding: 30px 20px;
+    }
+
+    button {
+        width: 90%;
+        margin: 5px auto;
+    }
+}
